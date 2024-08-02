@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <div class="logo">
+          <a href="#home">
+            <img src="assets/img/logo.svg">
+          </a>
+        </div>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#grid-one">Inventário</a></li>
+          <li><a href="#gallery">Skins</a></li>
+          <li><a href="#grid-two">Alugue</a></li>
+          <li><a href="#pricing">Preço</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Bem-vindo ao CS2 Inventory Manager</h2>
+        <p>Você é um entusiasta do CS2 e possui uma coleção impressionante de skins? Está cansado de perder tempo organizando e gerenciando seu inventário? Temos a solução perfeita para você!
+
+          Apresentamos o CS2 Inventory Manager, a ferramenta definitiva para todos os jogadores de CS2 que desejam manter suas skins organizadas e acessíveis com facilidade. Nosso sistema foi projetado para ajudá-lo a monitorar, categorizar e avaliar sua coleção de skins de maneira eficiente e intuitiva.</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/faca.png" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Com o CS2 Inventory Manager, você pode:</h2>
+      <p> >> Organizar seu inventário: Classifique suas skins por   raridade, tipo, valor de mercado e muito mais.<br><br>
+          >> Avaliar sua coleção: Receba estimativas atualizadas do valor total do seu inventário com base nos preços de mercado.<br><br>
+          >> Gerenciar trocas e vendas: Controle as skins que você deseja trocar ou vender, facilitando as negociações com outros jogadores.<br><br>
+          >> Histórico de transações: Acompanhe todas as suas trocas e vendas para uma gestão completa do seu inventário.<br><br>
+    
+          Transforme a maneira como você gerencia suas skins com o CS2 Inventory Manager e dedique mais tempo ao que realmente importa: jogar e aproveitar o mundo de CS2!</p>
+    </div>
+  </section>
+
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">My Grid</h2>
+      <p class="grid-description">Uma breve descrição.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Teste 1</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+        <article>
+          <h3>Teste 2</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+        <article>
+          <h3>Teste 2</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
+            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
+            provident maiores.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Galeria</h2>
+      <p class="grid-description">Uma breve descrição.</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="grid-two" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Alugue Skins e Eleve Seu Jogo.</h2>
+      <p class="grid-description">Experimente o visual e a sensação das skins mais exclusivas sem a necessidade de comprá-las. Com nosso serviço de aluguel de skins, você pode acessar uma ampla variedade de skins premium para CS2 por um período determinado. Selecione suas skins favoritas, jogue com elas e devolva quando terminar. É fácil, acessível e perfeito para aqueles que querem testar antes de investir.</p>
+
+      <div class="grid">
+        <article>
+          <h3>Cadastre-se</h3>
+          <img src="/assets/img/agente4.png" class="agente4">
+        </article>
+        <article>
+          <h3>Teste</h3>
+          <img src="/assets/img/agente2.png" class="agente2">
+        </article>
+        <article>
+          <h3>Escolha</h3>
+          <img src="/assets/img/agente3.png" class="agente3">
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Pricing</h2>
+      <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some
+        surprises at the machine’s performance. This post details some background information on the experience of
+        porting Firefox to run natively on these CPUs.</p>
+      <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to
+        know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+
+      <div class="responsive-table">
+        <table>
+          <caption>Pricing table</caption>
+
+          <thead>
+            <tr>
+              <th>Title 1</th>
+              <th>Title 2</th>
+              <th>Title 3</th>
+              <th>Title 4</th>
+              <th>Title 5</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Testando</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Pronto para Transformar Seu Inventário?</h2>
+        <p>Não perca mais tempo com a desorganização. Experimente o CS2 Inventory Manager hoje mesmo e leve sua experiência com CS2 a um novo patamar. Mantenha suas skins organizadas, valorize sua coleção e facilite suas negociações. Cadastre-se agora e comece a gerenciar seu inventário como um verdadeiro profissional!</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/agente1.png" alt="Logo de HTML, CSS e JS.">
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Contact me</legend>
+
+          <div class="form-group">
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Your name">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">last name</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Your e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Send message</button>
+          </div>
+        </fieldset>
+      </div>  
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://beacons.page/otaviomiranda">Feito com <span class="heart">❤</span> por Otávio Miranda</a></p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
